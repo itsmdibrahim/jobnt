@@ -1,4 +1,4 @@
-
+    
 //<![CDATA[
 
 
@@ -1167,7 +1167,7 @@ $(document).ready(function() {
         var tstmN_excerpt = tstmN_widgetImage.find('.custom-image a').attr('href');
         
         var AjaiRatstmN_ttmDiv = $('<div>').addClass('p-4');
-        var tstmN_ttmDiv = $('<div>').addClass('ttm-div maintesTimonial m-0 bg-white pt-6 pb-8 px-4 rounded-xl shadow-md').html('<div class="flex items-center mt-4"><div class="jobstock-reviews-figure p-1 mr-2 rounded-full mr-2"><div class="ttm-img w-16 h-16 bg-no-repeat bg-cover bg-center rounded-full" data-lazy-src="'+ tstmN_imageSrc +'"></div></div> <div class="ttm-info leading-tight"><p class="ttm-title text-black font-semibold text-base leading-tight">' + tstmN_title + '</p><p class="ttm-caption leading-tight" style="color: #14855B; font-weight: 500; font-size: 14px;">' + tstmN_excerpt + '</p></div></div><div class="tt-data block mt-3 p-2"><p class="text-gray-600 leading-snug text-base">' + tstmN_caption + '</p></div></div>');
+        var tstmN_ttmDiv = $('<div>').addClass('ttm-div maintesTimonial m-0 bg-white pt-6 pb-8 px-4 rounded-xl shadow-md').html('<div class="flex items-center mt-4"><div class="jobstock-reviews-figure p-1 mr-2 rounded-full mr-2"><div class="ttm-img w-16 h-16 bg-no-repeat bg-cover bg-center rounded-full custom-lazy-image" data-lazy-src="'+ tstmN_imageSrc +'"></div></div> <div class="ttm-info leading-tight"><p class="ttm-title text-black font-semibold text-base leading-tight">' + tstmN_title + '</p><p class="ttm-caption leading-tight" style="color: #14855B; font-weight: 500; font-size: 14px;">' + tstmN_excerpt + '</p></div></div><div class="tt-data block mt-3 p-2"><p class="text-gray-600 leading-snug text-base">' + tstmN_caption + '</p></div></div>');
 
         AjaiRatstmN_ttmDiv.append(tstmN_ttmDiv);
         var tstmN_container = $('#jobnt-testimonials');
