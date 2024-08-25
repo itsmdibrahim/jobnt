@@ -183,7 +183,7 @@ function ajaxBlock(e,t,a,s,r,i,o){if(r.match("getcontent")){if("job1"==t||"job2"
     var encryptedScript = document.getElementById('encrypted-script');
     var requiredURL = "jobnt-tenolent.blogspot.com";
     if (!encryptedScript || !encryptedScript.innerHTML.includes(requiredURL)) {
-        window.location.href = "https://your-redirect-url.com";
+        window.location.href = "https://tenolent.com";
     }
 })();
 
