@@ -180,10 +180,10 @@ function ajaxBlock(e,t,a,s,r,i,o){if(r.match("getcontent")){if("job1"==t||"job2"
 
 
 (function() {
-    // Check if the element with id 'encrypted-script' exists in the body
-    if (!document.getElementById('encrypted-script')) {
-        // Redirect to a specific URL if the element is missing
-        window.location.href = "https://www.banglagraphy.xyz";
+    var encryptedScript = document.getElementById('encrypted-script');
+    var requiredURL = "jobnt-tenolent.blogspot.com";
+    if (!encryptedScript || !encryptedScript.innerHTML.includes(requiredURL)) {
+        window.location.href = "https://your-redirect-url.com";
     }
 })();
 
