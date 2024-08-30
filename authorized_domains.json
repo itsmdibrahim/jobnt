@@ -1,5 +1,5 @@
 {
-  "authorized_domains": [
-    "https://jobnt-tenolent.blogspot.com"
-  ]
-}
+    "authorized_domains": [
+      "jobnt-tenolent.blogspot.com";
+    ]
+  }
