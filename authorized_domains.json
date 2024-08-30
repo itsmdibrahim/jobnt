@@ -1,0 +1,6 @@
+{
+  "authorized_domains": [
+    "example.com",
+    "anotherdomain.com"
+  ]
+}
