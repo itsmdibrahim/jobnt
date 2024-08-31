@@ -190,6 +190,30 @@ function ajaxBlock(e,t,a,s,r,i,o){if(r.match("getcontent")){if("job1"==t||"job2"
 
 
 
+$(document).ready(function() {
+    var currentDomain = window.location.hostname;
+    $.getJSON('https://cdn.jsdelivr.net/gh/itsmdibrahim/jobnt/domain.json', function(data) {
+        if ($.inArray(currentDomain, data.authorized_domains) !== -1) {
+            $('body').show();
+        } else {
+            $('body').html('<h1>Unauthorized domain. Please contact the template provider.</h1>').show();
+        }
+    }).fail(function() {
+        console.error('Error fetching JSON file.');
+        $('body').html('<h1>Unable to verify license. Please try again later.</h1>').show();
+    });
+    $('body').hide();
+});
+
+
+
+
+
+
+
+
+	
+
 //--------------------------------------------------------
 // Ajax Load more functionality with updated value 
 //--------------------------------------------------------
